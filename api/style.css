@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Apply a background color and text color to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0074d9;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #004e99;
+}
+
+/* Style the main section */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background: #0074d9;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Add some responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
