@@ -24,7 +24,7 @@
     <h2>Contact Information</h2>
     <?php
     // Read contact information from the text file
-    $contactFile = 'contact.txt';
+    $contactFile = 'contacts.txt';
     if (file_exists($contactFile)) {
         $contactInfo = file($contactFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         if (!empty($contactInfo)) {
