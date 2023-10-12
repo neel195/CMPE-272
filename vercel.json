@@ -6,6 +6,6 @@
     },
 
     "rewrites": [
-        { "source": "/(.*)", "destination": "/api/272_lab_1.php" }
+        { "source": "/(.*)", "destination": "/api/index.php" }
       ]
   }
