@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>News - Electronic Shop</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 
